@@ -1,0 +1,170 @@
+{
+  "album": [
+    {
+      "NewRelese": {
+        "songs": [
+          {
+            "id": "c737503f-e26d-445a-bef2-31cc6b9ff6cf",
+            "artist": "Shahnaaz Randhawa",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Abrar%E2%80%99s%20Entry%20_%20Jamal%20Kudu%20(From%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Jamal Kudu",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Abrar%E2%80%99s%20Entry%20_%20Jamal%20Kudu%20(From%20_ANIMAL_).mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "5e1de7fc-a3af-424b-91f9-5dd237c1e00b",
+            "artist": "Mitraz",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Akhiyaan%20Gulaab%20(From%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Akhiyaan Gulaab",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Akhiyaan%20Gulaab%20(From%20_Teri%20Baaton%20Mein%20Aisa%20Uljha%20Jiya_).mp3",
+            "duration": "171147"
+          },
+          {
+            "id": "ad347387-a564-4837-bece-f016d0eea915",
+            "artist": "Badshah, Sharvi Yadav, Hiten",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Daaku%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Daaku",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Daaku.mp3",
+            "duration": "160396"
+          },
+          {
+            "id": "29e7618a-cf36-4db9-b7b6-783c68958f2c",
+            "artist": "Raghav",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Desperado%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Desperado",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Desperado.mp3",
+            "duration": "160396"
+          },
+          {
+            "id": "c052aa0f-b3fb-4b47-9b19-48897b7e580f",
+            "artist": "Raghav Chaitanya, Manoj Muntashir, Pritam",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Hua%20Main%20(From%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Hua Main (From 'ANIMAL')",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Hua%20Main%20(From%20_ANIMAL_).mp3",
+            "duration": "277021"
+          },
+          {
+            "id": "166b01e3-acf1-4967-b31f-73d244805009",
+            "artist": "Diljit Dosanjh",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Kinni%20Kinni%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Kinni Kinni",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Kinni%20Kinni.mp3",
+            "duration": "213344"
+          },
+          {
+            "id": "54d378ac-ce27-48f2-b5df-f7f3ea6a7100",
+            "artist": "Arijit Singh",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/O%20Maahi%20(From%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "O Maahi",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20O%20Maahi%20(From%20_Dunki_).mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "3265fc65-454c-41f4-a35c-fada6e8f7697",
+            "artist": "Shubh",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/One%20Love%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "One Love",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20One%20Love.mp3",
+            "duration": "159222"
+          },
+          {
+            "id": "e755403d-5013-415c-a897-b86c388ef006",
+            "artist": "Aashir Wajahat",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Sadqay%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Sadqay",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Sadqay.mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "8e58994e-3ce9-4264-94ca-9b421bd3f38c",
+            "artist": "Diljit Dosanjh",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Magic%20_%20Coke%20Studio%20Bharat%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Magic",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/PLAYLIST_SONG/spotifydown.com%20-%20Magic%20_%20Coke%20Studio%20Bharat.mp3",
+            "duration": "153083"
+          }
+        ],
+        "total": 10,
+        "Playlist": "Top Hindi💗"
+      },
+      "Trending": {
+        "songs": [
+          {
+            "id": "790dee4c-0797-4e50-ab4e-3904f08ca885",
+            "artist": "Ariana Grande",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/we-cant-be-friends-wait-for-your-love.jpg",
+            "songname": "we can't be friends",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/We%20Cant%20Be%20Friends%20(Wait%20For%20Your%20Love)%20.mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "79ac8709-05f5-460b-83d4-00c91753f9de",
+            "artist": "Amaarae",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Angels%20in%20Tibet%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Angels in Tibet",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Angels%20in%20Tibet.mp3",
+            "duration": "171147"
+          },
+          {
+            "id": "e2f2a605-a691-4413-8d45-b26f22a8d417",
+            "artist": "V",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/FRI(END)S%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "FRI(END)S",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20FRI(END)S.mp3",
+            "duration": "160396"
+          },
+          {
+            "id": "4d43c89a-139a-4cdb-b03e-156518838ead",
+            "artist": "Taylor Swift",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Lover%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Lover",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Lover.mp3",
+            "duration": "160396"
+          },
+          {
+            "id": "50892843-58cd-454f-ba5e-a959f6165e3f",
+            "artist": "The Weeknd, JENNIE, Lily-Rose Depp",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/One%20Of%20The%20Girls%20(with%20JENNIE,%20Lily%20Rose%20Depp)%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "One Of The Girls",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20One%20Of%20The%20Girls%20(with%20JENNIE,%20Lily%20Rose%20Depp).mp3",
+            "duration": "277021"
+          },
+          {
+            "id": "887e3585-e4f7-4d46-855b-2f25faf5f262",
+            "artist": "The Weeknd, Playboi Carti, Madonna",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Popular%20(with%20Playboi%20Carti%20%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Popular- From The Idol Vol.1",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Popular%20(with%20Playboi%20Carti%20&%20Madonna)%20-%20From%20The%20Idol%20Vol.%201%20(Music%20from%20the%20HBO%20Original%20Series).mp3",
+            "duration": "213344"
+          },
+          {
+            "id": "a83f1471-0d51-41b1-bde3-4d381b6936a2",
+            "artist": "Tesher",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Ready%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Ready",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Ready.mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "a97954e0-8cf0-4d7f-a811-738afaf1ad17",
+            "artist": "Stephen Sanchez, Em Beihold",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Until%20I%20Found%20You%20(with%20Em%20Beihold)%20-%20Em%20Beihold%20Version%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Until I Found You-",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Until%20I%20Found%20You%20(with%20Em%20Beihold)%20-%20Em%20Beihold%20Version.mp3",
+            "duration": "153083"
+          },
+          {
+            "id": "f688536b-32bf-4cd9-afe5-38790501f0c0",
+            "artist": "Masego, FKJ",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Tadow%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Tadow",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Tadow.mp3",
+            "duration": "153083"
+          }
+        ],
+        "total": 10,
+        "Playlist": "Trending India🎧"
+      }
+    }
+  ]
+}
