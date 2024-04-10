@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
-}
-
-@font-face {
-  font-family: 'inter';
-  src: url('font/Inter-VariableFont_slnt,wght.ttf');
 }
 body{
   background-color: black;
@@ -49,7 +44,8 @@ background-color: #717171;
 border-radius: 6px; 
 } */
 .second-main-div{
-  overflow: auto;
+  /* overflow: auto; */
+  overflow-x: hidden;
   width: 81vw;
   background-color: #121212;
   border-radius: 10px;
@@ -413,6 +409,10 @@ border-radius: 6px;
   margin: 25px 25px 0px 0px;
   cursor: pointer;
 }
+.see-all a{
+  text-decoration: none;
+  color: #ffffff;
+}
 .main-footer-conatint a{
   text-decoration: none;
   color: #929191;
@@ -531,6 +531,7 @@ hr{
   width: 50px;
   height: 50px;
 }
+
 @media screen and (max-width:1050px){
   .main-footer-conatint{
     flex-direction: column;

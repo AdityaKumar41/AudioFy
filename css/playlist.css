@@ -1,0 +1,67 @@
+.playlistMain{
+  position: relative;
+}
+.header-playlist{
+  width: 80vw;
+  height: 150vh;
+  background-image: linear-gradient(to bottom, rgba(200, 175, 31, 0.6), rgba(102, 215, 42, 0.6));
+  position: relative;
+  /* z-index: 999; */
+}
+.playlist-containt{
+  position: absolute;
+  top: 15vw;
+  width: 80vw;
+  height: fit-content;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.331), rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.927),rgb(0, 0, 0));
+}
+.left-play-img img{
+  width: 200px;
+  height: 200px;
+}
+.header-containt{
+  height: 35vh;
+  width: 38vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.song-playlist-title{
+  font-size: 51px;
+}
+.song-playlist-artist{
+  font-size: 16px;
+}
+.inside-show{
+  text-align: left;
+}
+.song-info-play {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.song-info-style{
+  padding: 10px;
+}
+.song-info-play p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 234px;
+}
+hr{
+  margin: 10px 35px auto;
+  width: 74vw;
+}
+.song-count{
+  display: flex;
+  gap: 20px;
+  width: 307px;
+  align-items: center;
+}
+.left-side-music-ud{
+  width: 37vw;
+  margin-right: 44vw;
+  margin-bottom: 3vw;
+}
