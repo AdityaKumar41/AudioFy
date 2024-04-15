@@ -85,7 +85,8 @@
           }
         ],
         "total": 10,
-        "Playlist": "Top Hindi💗"
+        "Playlist": "Top Hindi💗",
+        "PlaylistImg": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Playlist/playlist_img/Sadqay%20downloaded%20from%20SpotiSongDownloader.com_.jpg"
       },
       "Trending": {
         "songs": [
@@ -163,7 +164,103 @@
           }
         ],
         "total": 10,
-        "Playlist": "Trending India🎧"
+        "Playlist": "Trending India🎧",
+        "PlaylistImg": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/Top%20Trending%20India%20downloaded%20from%20SpotiSongDownloader.com_%20(1).jpg"
+      },
+      "EnglishHits": {
+        "songs": [
+          {
+            "id": "0da96965-9659-45f2-8ba1-1fbf80f81cd7",
+            "artist": "Lil Durk, J. Cole",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/All_MYl_ife.jpeg",
+            "songname": "All My Life (feat. J. Cole)",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/All%20My%20Life%20(feat.%20J.%20Cole).mp3",
+            "duration": "223878"
+          },
+          {
+            "id": "b99e330b-b0ed-43df-803d-a1f8e32aa4ea",
+            "artist": "Ariana Grande",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/position.jpeg",
+            "songname": "positions",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/positions.mp3",
+            "duration": "172324"
+          },
+          {
+            "id": "0e4fb724-f487-4457-9f71-defa2172f69d",
+            "artist": "Halsey",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/withoutme.jpeg",
+            "songname": "Without Me",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Without%20Me.mp3",
+            "duration": "201660"
+          },
+          {
+            "id": "8efe828f-96a7-44a0-a505-0097bf85cfd7",
+            "artist": "David Guetta, Bebe Rexha",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Im%20good.jpeg",
+            "songname": "I'm Good (Blue)",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/I'm%20Good%20(Blue).mp3",
+            "duration": "175238"
+          },
+          {
+            "id": "1c62f76f-1d7f-4e68-9858-8ebebff40235",
+            "artist": "Taylor Swift",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Cruel_Summer.jpeg",
+            "songname": "Cruel Summer",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Cruel%20Summer.mp3",
+            "duration": "178426"
+          },
+          {
+            "id": "d03187cf-af14-453d-84f9-973bc9436945",
+            "artist": "Ava Max",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Sweet_but_Psycho.jpeg",
+            "songname": "Sweet but Psycho",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Sweet%20but%20Psycho.mp3",
+            "duration": "187436"
+          },
+          {
+            "id": "0b4b2628-6589-4277-a906-5a4c186053c1",
+            "artist": "Post Malone, Swae Lee",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/sunflower.jpeg",
+            "songname": "Sunflower - Spider-Man: Into the Spider-Verse",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Sunflower%20-%20Spider-Man_%20Into%20the%20Spider-Verse.mp3",
+            "duration": "158040"
+          },
+          {
+            "id": "9a6b0562-dd9e-4014-9c12-4705e21064b4",
+            "artist": "The Kid LAROI, Justin Bieber",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Stay(JB).jpeg",
+            "songname": "STAY (with Justin Bieber)",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/STAY%20(with%20Justin%20Bieber).mp3",
+            "duration": "141805"
+          },
+          {
+            "id": "87761bc2-cf32-44de-a71f-05d1b4bdf712",
+            "artist": "Zedd, Alessia Cara",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Stay.jpeg",
+            "songname": "Stay",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Stay.mp3",
+            "duration": "210090"
+          },
+          {
+            "id": "e575ca1b-751e-4c85-97e4-bf7776c39f11",
+            "artist": "Charlie Puth",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Attention.jpeg",
+            "songname": "Attention",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Attention.mp3",
+            "duration": "208786"
+          },
+          {
+            "id": "451cda0c-4dd9-40e5-a8c0-84a625acaae9",
+            "artist": "Crash Adams",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/GiveMEkiss.jpeg",
+            "songname": "Give Me a Kiss",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/Give%20Me%20a%20Kiss.mp3",
+            "duration": "169204"
+          }
+        ],
+        "total": 11,
+        "Playlist": "Trending English Hits",
+        "PlaylistImg": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/Top%20Trending%20India%20downloaded%20from%20SpotiSongDownloader.com_%20(1).jpg"
       }
     }
   ]

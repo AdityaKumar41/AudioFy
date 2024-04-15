@@ -95,11 +95,14 @@ border-radius: 6px;
   height: 20vh;
 }
 .child-container-sider{
+  display: flex;
   background-color: #353535;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  height: 100px;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
 }
 .text-sider-1{
   font-size: 15px;
@@ -205,7 +208,7 @@ ul li{
   /* border: #fff 2px solid; */
   border-radius: 25px;
   background-color: #383636;
-  cursor: not-allowed;
+  cursor: pointer;
 }
 .playmusic{
   width: 100vw;
@@ -226,7 +229,7 @@ ul li{
   display: flex;
   align-items: center;
   gap: 14px;
-  width: 17vw;
+  width: 19vw;
   margin: 12px;
 }
 .controls {
@@ -301,7 +304,12 @@ img.play-pause-img{
 .two-btn{
   white-space: nowrap;
 }
+.header button img{
+  width: 30px;
+  height: 30px;
+}
 .header button{
+  display: flex;
   border: none;
   width: 100px;
   height: 45px;
@@ -309,7 +317,8 @@ img.play-pause-img{
   border-radius: 25px;
   font-weight: 700;
   cursor: pointer;
-  
+  align-items: center;
+  justify-content: center;
 }
 .login-btn{
   background-color: transparent;
@@ -422,6 +431,9 @@ border-radius: 6px;
   justify-content: space-between;
   margin: 50px 25px;
 }
+a{
+  text-decoration: none;
+}
 .footer-side1{
   display: flex;
   flex-wrap: wrap;
@@ -501,6 +513,8 @@ hr{
 .fullscreen-mode{
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-clip: border-box;
   background-image: linear-gradient(rgba(255, 0, 0, 0.687));
 }
 .playmusic-ud{
@@ -513,8 +527,8 @@ hr{
   height: 200px;
 }
 .left-side-music-ud{
-  width: 37vw;
-  margin-right: 44vw;
+  width: 43vw;
+  margin-right: 38vw;
   margin-bottom: 3vw;
 }
 .songTitle-ud{
@@ -531,7 +545,10 @@ hr{
   width: 50px;
   height: 50px;
 }
-
+.playlist-img img{
+  width: 50px;
+  height: 50px;
+}
 @media screen and (max-width:1050px){
   .main-footer-conatint{
     flex-direction: column;
