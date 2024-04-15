@@ -297,6 +297,14 @@ playPauseButtons.forEach((button) => {
           enterFullscreen();
         }
       });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "f" || event.key === "F") {
+          enterFullscreen();
+        }
+        if (event.key==="F12"){
+          event.preventDefault();
+        }
+      });
       fullscreenButton.addEventListener("click", () => {
         enterFullscreen();
       });
@@ -336,4 +344,9 @@ function generateHtmlplaylist(image, songName, artist, duration, count, id) {
       <p>${minutes}</p>
     </div>
   `;
+};
+//blockrightClick
+function handleClick(event) {
+  event.preventDefault();
 }
+window.addEventListener("contextmenu", handleClick);

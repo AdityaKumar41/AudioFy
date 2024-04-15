@@ -406,9 +406,6 @@ fetch(userRecomendation)
           event.preventDefault();
         }
       });
-      document.addEventListener('keydown',(e)=>{
-        
-      })
       fullscreenButton.addEventListener("click", () => {
         enterFullscreen();
       });
@@ -495,7 +492,7 @@ fetch(userRecomendation)
 function handleClick(event) {
   event.preventDefault();
 }
-// window.addEventListener("contextmenu", handleClick);
+window.addEventListener("contextmenu", handleClick);
 
 //
 // window.addEventListener('beforeunload',function (e){
