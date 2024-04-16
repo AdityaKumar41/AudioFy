@@ -170,6 +170,14 @@
       "EnglishHits": {
         "songs": [
           {
+            "id": "0e899b6c-9bd2-456a-9746-9c08b7ff96ec",
+            "artist": "Charlie Puth",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/We%20Don't%20Talk%20Anymore.jpg",
+            "songname": "We Don't Talk Anymore",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/spotifydown.com%20-%20We%20Don't%20Talk%20Anymore%20(feat.%20Selena%20Gomez).mp3",
+            "duration": "223878"
+          },
+          {
             "id": "0da96965-9659-45f2-8ba1-1fbf80f81cd7",
             "artist": "Lil Durk, J. Cole",
             "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/All_MYl_ife.jpeg",

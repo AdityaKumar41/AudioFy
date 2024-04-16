@@ -10,8 +10,19 @@
       href="../dekstopimg/Spotify_icon.svg.png"
       type="image/x-icon"
     />
-    <title>Spotify</title>
-    <title>Desktop Version</title>
+    <title>Spotify Top Hindi</title>
+    <script>
+      window.onload = function() {
+          // Get the screen width
+          var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  
+          // Check if the screen width is less than a certain value (e.g., 768 pixels)
+          if (screenWidth < 768) {
+              // Redirect to the mobile warning page
+              window.location.href = 'additional/screen.html';
+          }
+      };
+  </script>
   </head>
   <body>
     <div class="main-div-body">
