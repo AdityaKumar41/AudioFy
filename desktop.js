@@ -86,6 +86,8 @@ const nextBtn = document.getElementById("next");
 const prevBtn = document.getElementById("prev");
 const audio = document.getElementById("audio");
 const songBTn = document.querySelector(".play-pause-main");
+const currentDuration = document.getElementById("currentDuration");
+const songDuration = document.getElementById("songDuration");
 
 let isPlaying = false;
 let currentSongIndex = 0;
@@ -319,6 +321,8 @@ fetch(userRecomendation)
       document.querySelector(".song-artist").textContent = currentSong.artist;
       document.querySelector(".song-image").src = currentSong.image;
       progressBar.style.width = "0%";
+      document.getElementById('currentDuration').textContent = '0:00';
+      document.getElementById('songDuration').textContent = '0:00';
       const addStyleFullscreen = document.querySelector(".playmusic");
       const imageRationChange = document.querySelector(".img-footer");
       const leftSiderMusic = document.querySelector(".left-side-music");
@@ -368,6 +372,8 @@ fetch(userRecomendation)
         middleMusic.style.marginBottom = "-19vw";
         ControlBtn.classList.add("controls-btn-ud");
         playPause.classList.add("play-pause-ud");
+        currentDuration.classList.add("currentDuration-ud");
+        songDuration.classList.add("songDuration-ud");
       }
       function exitFullscreen() {
         // Remove background image when exiting fullscreen
@@ -383,6 +389,8 @@ fetch(userRecomendation)
         middleMusic.style.marginBottom = "";
         ControlBtn.classList.remove("controls-btn-ud");
         playPause.classList.remove("play-pause-ud");
+        currentDuration.classList.remove("currentDuration-ud");
+        songDuration.classList.remove("songDuration-ud");
       }
       //background image change
       if (!isElementFullscreen()) {
@@ -414,20 +422,45 @@ fetch(userRecomendation)
     function updateProgressBar() {
       const currentTime = audio.currentTime;
       const duration = audio.duration;
-      const progressPercentage = (currentTime / duration) * 100;
-      progressBar.style.width = `${progressPercentage}%`;
+    
+      // Check if duration is a valid number
+      if (!isNaN(duration)) {
+        const progressPercentage = (currentTime / duration) * 100;
+    
+        // Update progress bar
+        progressBar.style.width = `${progressPercentage}%`;
+    
+        // Update current duration
+        const currentMinutes = Math.floor(currentTime / 60);
+        const currentSeconds = Math.floor(currentTime % 60);
+        document.getElementById('currentDuration').textContent = `${currentMinutes}:${currentSeconds.toString().padStart(2, '0')}`;
+    
+        // Update total duration
+        const totalMinutes = Math.floor(duration / 60);
+        const totalSeconds = Math.floor(duration % 60);
+        document.getElementById('songDuration').textContent = `${totalMinutes}:${totalSeconds.toString().padStart(2, '0')}`;
+      }
     }
-
+    
     function setSongProgress(event) {
       const clickedPositionX =
         event.clientX - progressBarContainer.getBoundingClientRect().left;
       const progressBarWidth = progressBarContainer.offsetWidth;
       const newProgressPercentage = (clickedPositionX / progressBarWidth) * 100;
       const duration = audio.duration;
-      const newCurrentTime = (newProgressPercentage / 100) * duration;
-      playBackPostion = newCurrentTime;
-      audio.currentTime = newCurrentTime;
-      progressBar.style.width = `${newProgressPercentage}%`;
+    
+      // Check if duration is a valid number
+      if (!isNaN(duration)) {
+        const newCurrentTime = (newProgressPercentage / 100) * duration;
+    
+        audio.currentTime = newCurrentTime;
+        progressBar.style.width = `${newProgressPercentage}%`;
+    
+        // Update current duration
+        const currentMinutes = Math.floor(newCurrentTime / 60);
+        const currentSeconds = Math.floor(newCurrentTime % 60);
+        document.getElementById('currentDuration').textContent = `${currentMinutes}:${currentSeconds.toString().padStart(2, '0')}`;
+      }
     }
     const songStates = {};
 
