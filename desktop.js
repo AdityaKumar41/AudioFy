@@ -422,15 +422,11 @@ fetch(userRecomendation)
     function updateProgressBar() {
       const currentTime = audio.currentTime;
       const duration = audio.duration;
-    
-      // Check if duration is a valid number
       if (!isNaN(duration)) {
         const progressPercentage = (currentTime / duration) * 100;
     
         // Update progress bar
         progressBar.style.width = `${progressPercentage}%`;
-    
-        // Update current duration
         const currentMinutes = Math.floor(currentTime / 60);
         const currentSeconds = Math.floor(currentTime % 60);
         document.getElementById('currentDuration').textContent = `${currentMinutes}:${currentSeconds.toString().padStart(2, '0')}`;

@@ -178,6 +178,14 @@
             "duration": "223878"
           },
           {
+            "id": "f421d766-9dfb-43f3-b90e-e6a01fa07c68",
+            "artist": "Gym Class Heroes, Adam Levine",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/Stereo%20Hearts%20(feat.%20Adam%20Levine)%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "stereo hearts (feat adam levine)",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_song/spotifydown.com%20-%20Stereo%20Hearts%20(feat.%20Adam%20Levine).mp3",
+            "duration": "223878"
+          },
+          {
             "id": "0da96965-9659-45f2-8ba1-1fbf80f81cd7",
             "artist": "Lil Durk, J. Cole",
             "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/English_Hits/eng_img/All_MYl_ife.jpeg",
