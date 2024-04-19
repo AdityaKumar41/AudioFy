@@ -1,3 +1,2 @@
 # Spotify
-<<<<<<< HEAD
-Still Under Devlopment
+Still Under Devlopment 
