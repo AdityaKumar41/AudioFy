@@ -15,7 +15,7 @@ AudioFy is a sleek and user-friendly music player designed to bring your favorit
 
 ## Screenshots
 
-<img src="dekstopimg/audiofymd.png" alt="img" align="center" width="100vw" height="auto">
+<img src="dekstopimg/audiofymd.svg" alt="img" align="center" width="100%" height="auto">
 
 ## Installation
 
