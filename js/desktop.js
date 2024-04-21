@@ -413,10 +413,9 @@ fetch(userRecomendation)
         if (event.key==="F12"){
           event.preventDefault();
         }
-        if(event.key === "Control + Shift + I"){
+        if(event.ctrlKey && event.shiftKey && event.key === 'I') {
           event.preventDefault();
-        }
-        console.log(event.key);
+      }
       });
       fullscreenButton.addEventListener("click", () => {
         enterFullscreen();
