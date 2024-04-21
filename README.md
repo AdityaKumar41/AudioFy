@@ -1,4 +1,4 @@
-<h3 align="center"><a href="https://web.ownyourblog.live/"><img src="dekstopimg/AudioFy-md.png" width="600px"></a></h3>
+<h3 align="center"><a href="https://web.ownyourblog.live/"><img src="dekstopimg/AudioFy-md.svg" width="600px"></a></h3>
 
 ---
 
@@ -15,7 +15,7 @@ AudioFy is a sleek and user-friendly music player designed to bring your favorit
 
 ## Screenshots
 
-<img src="dekstopimg/audiofymd.png" alt="img" align="center" width="100vw" height="auto">
+<img src="dekstopimg/audiofymd.svg" alt="img" align="center" width="100%" height="auto">
 
 ## Installation
 
