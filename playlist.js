@@ -351,12 +351,12 @@ function generateHtmlplaylist(image, songName, artist, duration, count, id) {
         <div class="left-side-music">
           <div class="img-footer" >
           <div class="js-icons-play" data-song-id='${id}'>
-            <a href="#"><img
+            <div class="playlist-icons-img"><img
                 class="play-pause-main"
                 src="${image}"
                 alt=""
               />
-              </a>
+              </div>
             </div>
           </div>
           <div class="song-info">

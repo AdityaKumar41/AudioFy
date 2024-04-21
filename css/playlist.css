@@ -65,3 +65,6 @@ hr{
   margin-right: 44vw;
   margin-bottom: 3vw;
 }
+.playlist-icons-img{
+  cursor: pointer;
+}

@@ -68,7 +68,7 @@ function generateImageHTML(image, name, artist, id, song) {
           alt=""
         />
         <div class="icons-play js-icons-play" data-song-id='${id}'>
-          <a href="#" class="play-pause-main"><img src="https://img.icons8.com/ios-filled/100/FFFFFF/circled-play.png"/></a>
+          <div class="play-pause-main"><img src="https://img.icons8.com/ios-filled/100/FFFFFF/circled-play.png"/></div>
         </div>
       </div>
       <div class="inside-show">
