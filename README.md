@@ -4,8 +4,6 @@
 
 AudioFy is a sleek and user-friendly music player designed to bring your favorite Spotify tracks to your fingertips. 
 
-<img src="dekstopimg/audiofymd.png" alt="img" align="right" width="560px" height="400px">
-
 ### Features
 
 - **Trending Playlists**: Access the latest trending playlists with a single click.
@@ -14,6 +12,10 @@ AudioFy is a sleek and user-friendly music player designed to bring your favorit
 - **Volume Control**: Adjust the volume to your preference with the built-in volume control.
 - **Fullscreen Mode**: Enjoy a cinematic experience with fullscreen mode.
 - **Responsive Design**: Compatible with desktop. You can easily modify the responsive design to suit your preferences.
+
+## Screenshots
+
+<img src="dekstopimg/audiofymd.png" alt="img" align="center" width="auto" height="auto">
 
 ## Installation
 
