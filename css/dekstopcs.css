@@ -441,9 +441,6 @@ a{
   font-weight: 600;
   font-size: 15px;
 }
-.common-b{
-  /* margin-bottom: 8px; */
-}
 .footer-icons .imgc{
   display: inline-block;
   width: 20px;
@@ -535,10 +532,6 @@ hr{
 }
 .songArtist-ud{
   font-size: 15px;
-}
-#play-pause img{
-  /* width: 35px; */
-  /* height: 35px; */
 }
 .play-pause-ud img{
   width: 50px;

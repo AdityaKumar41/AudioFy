@@ -7,18 +7,6 @@
   <link rel="stylesheet" href="css/dekstopcs.css" />
   <link rel="shortcut icon" href="dekstopimg/spotifyFavicons.png" type="image/x-icon">
   <title>AudioFy</title>
-  <script>
-    window.onload = function() {
-        // Get the screen width
-        var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-        // Check if the screen width is less than a certain value (e.g., 768 pixels)
-        if (screenWidth < 768) {
-            // Redirect to the mobile warning page
-            window.location.href = 'additional/screen.html';
-        }
-    };
-</script>
 </head>
 <body>
   <div class="main-div-body">
@@ -236,7 +224,8 @@
     </div>
     </div>
   </div>
-  <script src="desktop.js"></script>
+  <script src="js/desktop.js"></script>
+  <script src="js/redirect.js"></script>
 
 </body>
 

@@ -13,12 +13,10 @@
     <title>AudioFy Top Hindi</title>
     <script>
       window.onload = function() {
-          // Get the screen width
           var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   
-          // Check if the screen width is less than a certain value (e.g., 768 pixels)
           if (screenWidth < 768) {
-              // Redirect to the mobile warning page
+              // Redirect
               window.location.href = 'additional/screen.html';
           }
       };
@@ -216,6 +214,7 @@
       </div>
       </div>
     </div>
-    <script src="playlist.js"></script>
+    <script src="js/playlist.js"></script>
+    <script src="js/redirect.js"></script>
   </body>
 </html>
