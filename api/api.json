@@ -161,9 +161,18 @@
             "songname": "Tadow",
             "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/spotifydown.com%20-%20Tadow.mp3",
             "duration": "153083"
+          },
+          {
+
+          "id": "a679e150-7626-4822-b0eb-17a075f26a6f",
+            "artist": "Arijit Singh, Shilpa Rao",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Chaleya.jpg",
+            "songname": "Chaleya",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/chaleya.mp3",
+            "duration": "153083"
           }
         ],
-        "total": 10,
+        "total": 11,
         "Playlist": "Trending India🎧",
         "PlaylistImg": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/Top%20Trending%20India%20downloaded%20from%20SpotiSongDownloader.com_%20(1).jpg"
       },
