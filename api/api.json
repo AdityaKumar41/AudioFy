@@ -91,6 +91,14 @@
       "Trending": {
         "songs": [
           {
+            "id": "674b14e1-5fb2-4ac0-9b77-a7f7172eb08c",
+            "artist": "James Arthur & Anne-Marie",
+            "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Rewrite%20The%20Stars%20(with%20James%20Arthur%20%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
+            "songname": "Rewrite The Stars",
+            "song": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/Trending-India/Rewrite%20The%20Stars%20(with%20James%20Arthur%20&%20Anne-Marie).mp3",
+            "duration": "153083"
+          },
+          {
             "id": "790dee4c-0797-4e50-ab4e-3904f08ca885",
             "artist": "Ariana Grande",
             "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/we-cant-be-friends-wait-for-your-love.jpg",

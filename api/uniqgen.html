@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Id generator</title>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      text-align: center;
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      /* width: 99vw; */
+      height: 80vh;
+      color: white;
+      background-image: linear-gradient(to right, rgb(128, 105, 54), rgb(255, 255, 255));
+    }
+    .inside-one{
+      padding: 20px 0px 20px 0px;
+      width: 100%;
+    }
+    .container{
+      /* margin-top: 50px; */
+      width: 50vw;
+      height: auto;
+      background-color: rgb(128, 105, 54);
+      border-radius: 10px;
+    }
+    @media screen and (max-width: 768px){
+      .container{
+        width: 90vw;
+      }
+    }
+    button{
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    #copyBtn{
+      cursor: pointer;
+      /* color: rgb(128, 105, 54); */
+      padding: 10px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="inside-one">
+
+      <h1>Unique Id Generator</h1>
+      <p>Click the button to generate a unique id</p>
+      <button id="generateBtn">Generate id</button>
+      <p id="getCall" rows="4" cols="50" style="display: none;"></p><span id="copyBtn" style="display: none;">Click to Copy</span>
+
+    </div>
+  </div>
+  <script src="uniqidgen.js"></script>
+</body>
+</html>
