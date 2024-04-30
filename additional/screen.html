@@ -6,15 +6,15 @@
     <title>Screen Size Warning</title>
     <script>
         function checkScreenWidth() {
-    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    if (screenWidth > 768) {
-        // Redirect
-        window.location.href = '/';
-    }
-}
-checkScreenWidth();
-window.addEventListener('resize', checkScreenWidth);
+            if (screenWidth > 600) {
+                // Redirect
+                window.location.href = '/';
+            }
+        }
+        checkScreenWidth();
+        window.addEventListener('resize', checkScreenWidth);
     </script>
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
