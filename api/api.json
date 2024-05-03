@@ -91,6 +91,14 @@
       "Trending": {
         "songs": [
           {
+            "id": "674b14e1-5fb2-4ac0-9b77-asdfasd4asd8",
+            "artist": "Alec Benjamin",
+            "image": "https://i.scdn.co/image/ab67616d0000b2730c8a0405b0035e48ab780eec",
+            "songname": "Devil Does't Bargain",
+            "song": "https://www.trendyhiphop.com/wp-content/uploads/2022/07/Alec_Benjamin_-_Devil_Doesn_t_Bargain_Acoustic_.mp3",
+            "duration": "153083"
+          },
+          {
             "id": "674b14e1-5fb2-4ac0-9b77-a7f7172eb08c",
             "artist": "James Arthur & Anne-Marie",
             "image": "https://spotify-api.nyc3.cdn.digitaloceanspaces.com/song-img/Rewrite%20The%20Stars%20(with%20James%20Arthur%20%20downloaded%20from%20SpotiSongDownloader.com_.jpg",
